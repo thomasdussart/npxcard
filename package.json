@@ -1,14 +1,14 @@
 {
-  "name": "t0m1337",
-  "version": "1.0.0",
+  "name": "thomasdussart",
+  "version": "1.0.2",
   "description": "ThomasDussart's personnal card",
   "main": "./bin/card.js",
   "bin": {
-    "t0m1337": "./bin/card.js"
+    "t0m1337": "bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:thomasdussart/npxcard.git"
+    "url": "git+ssh://git@github.com/thomasdussart/npxcard.git"
   },
   "scripts": {
     "lint": "standard",
@@ -24,5 +24,9 @@
   },
   "devDependencies": {
     "standard": "^12.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/thomasdussart/npxcard/issues"
+  },
+  "homepage": "https://github.com/thomasdussart/npxcard#readme"
 }
